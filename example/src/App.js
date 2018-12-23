@@ -1,5 +1,5 @@
 import React from 'react';
-import useFormFields from '@usereact/form-fields'
+import useFormFields from '@usereact/use-form-fields'
 
 import logo from './logo.svg';
 import './App.css';

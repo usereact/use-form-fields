@@ -1,13 +1,13 @@
-# @usereact/form-fields
+# @usereact/use-form-fields
 
 > react hook to simplify forms
 
-[![NPM](https://img.shields.io/npm/v/@usereact/form-fields.svg)](https://www.npmjs.com/package/@usereact/form-fields)
+[![NPM](https://img.shields.io/npm/v/@usereact/use-form-fields.svg)](https://www.npmjs.com/package/@usereact/use-form-fields)
 
 ## Install
 
 ```bash
-npm install --save @usereact/form-fields
+npm install --save @usereact/use-form-fields
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save @usereact/form-fields
 ```tsx
 import React from 'react'
 
-import useFormFields from '@usereact/form-fields'
+import useFormFields from '@usereact/use-form-fields'
 
 const initialValues = {
   name: '',
@@ -32,7 +32,7 @@ function Example() {
   }
 
   return (
-    <form className="Form-layout" onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <label>Name: </label>
       <input type="text" {...fields.name} />
       <label>Email: </label>
